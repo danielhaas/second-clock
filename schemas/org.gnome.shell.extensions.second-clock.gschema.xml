@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.second-clock" path="/org/gnome/shell/extensions/second-clock/">
+    <key name="timezone" type="s">
+      <default>'Asia/Hong_Kong'</default>
+      <summary>IANA timezone identifier</summary>
+    </key>
+    <key name="label" type="s">
+      <default>'HK'</default>
+      <summary>Text shown before the time (empty = city name)</summary>
+    </key>
+    <key name="format" type="s">
+      <default>'%H:%M'</default>
+      <summary>strftime-style time format</summary>
+    </key>
+    <key name="position" type="s">
+      <choices>
+        <choice value='left'/>
+        <choice value='center'/>
+        <choice value='right'/>
+      </choices>
+      <default>'center'</default>
+      <summary>Top bar area</summary>
+    </key>
+    <key name="index" type="i">
+      <range min="0" max="20"/>
+      <default>1</default>
+      <summary>Position within the area (0 = first)</summary>
+    </key>
+  </schema>
+</schemalist>

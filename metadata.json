@@ -1,0 +1,8 @@
+{
+  "uuid": "second-clock@local",
+  "name": "Second Clock",
+  "description": "Shows a second clock for another timezone in the top bar. Click it to configure.",
+  "shell-version": ["49", "50"],
+  "settings-schema": "org.gnome.shell.extensions.second-clock",
+  "version": 2
+}
